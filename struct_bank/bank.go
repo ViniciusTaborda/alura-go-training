@@ -103,6 +103,7 @@ func (checkingAcc *CheckingAccount) deposit(amount float64) (float64, error) {
 
 	return checkingAcc.balance, err
 }
+
 func (savingsAcc *SavingsAccount) deposit(amount float64) (float64, error) {
 
 	var err error
